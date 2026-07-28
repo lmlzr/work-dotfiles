@@ -2,31 +2,47 @@
   "version": 3,
   "workspaces": [
     {
-      "id": "w3",
+      "id": "w7",
       "custom_name": null,
       "identity_cwd": "/home/lme",
       "public_pane_numbers": {
-        "3": 1
+        "8": 1,
+        "9": 2
       },
-      "next_public_pane_number": 2,
+      "next_public_pane_number": 3,
       "public_tab_numbers": [
-        1
+        1,
+        2
       ],
-      "next_public_tab_number": 2,
+      "next_public_tab_number": 3,
       "tabs": [
         {
           "custom_name": null,
           "layout": {
-            "Pane": 3
+            "Pane": 8
           },
           "panes": {
-            "3": {
+            "8": {
               "cwd": "/home/lme"
             }
           },
           "zoomed": false,
-          "focused": 3,
-          "root_pane": 3
+          "focused": 8,
+          "root_pane": 8
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 9
+          },
+          "panes": {
+            "9": {
+              "cwd": "/home/lme"
+            }
+          },
+          "zoomed": false,
+          "focused": 9,
+          "root_pane": 9
         }
       ],
       "active_tab": 0
