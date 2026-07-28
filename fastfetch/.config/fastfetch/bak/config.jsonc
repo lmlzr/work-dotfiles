@@ -1,0 +1,136 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/logo.txt",
+    "color": {
+        "1": "38;2;187;11;65"
+      //  "2": "#ec3e5f4",
+      //  "3": "#ec3e5f4",
+      //  "4": "#ec3e5f4",
+      //  "5": "#ec3e5f4",
+      //  "6": "#ec3e5f4",
+      //  "7": "#ec3e5f4",
+      // "8": "#ec3e5f4",
+      // "9": "#ec3e5f4",
+    },
+    "padding": {
+      "top": 1,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "key": " ",
+      "keyIcon": "",
+      "fqdn": false,
+      "color": {
+        "user": "38;2;102;11;42",
+        "at": "",
+        "host": "38;2;187;11;64"
+      }
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "{#38;2;187;11;64}Software Information"
+
+    },
+    {
+      "type": "os",
+      "key": "",
+      "keyColor": "38;2;102;11;42"
+    },
+    {
+      "type": "kernel",
+      "key": "",
+      "keyColor": "38;2;102;11;42"
+    },
+    {
+      "type": "packages",
+      "key": "󰏖",
+      "keyColor": "38;2;102;11;42",
+      "disabled": [
+        "winget"
+      ],
+      "combined": false
+    },
+        {
+      "type": "shell",
+      "key": "",
+      "keyColor": "38;2;102;11;42"
+    },
+            {
+      "type": "terminal",
+      "key": "󰄛",
+      "keyColor": "38;2;102;11;42"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "{#38;2;187;11;64}Hardware Information"
+    },
+    {
+      "type": "cpu",
+      "key": "",
+      "keyColor": "38;2;102;11;42"
+    },
+    {
+      "type": "gpu",
+      "key": "󰨇",
+      "driverSpecific": false,
+      "detectionMethod": "pci",
+      "temp": false,
+      "hideType": "none",
+      "keyColor": "38;2;102;11;42"
+    },
+    {
+      "type": "board",
+      "key": "󰚗",
+      "keyColor": "38;2;102;11;42"
+    },
+    {
+      "type": "memory",
+      "key": "",
+      "keyColor": "38;2;102;11;42",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "processes",
+      "key": " ",
+      "keyIcon": "",
+      "keyColor": "38;2;102;11;42"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "{#38;2;187;11;64}Time Information"
+    },    
+    {
+      "type": "uptime",
+      "key": "",
+      "keyColor": "38;2;102;11;42"
+    },    
+    {
+      "type": "datetime",
+      "key": "",
+      "keyColor": "38;2;102;11;42"
+    },
+    {
+    "type": "command",
+    "key": "",
+    "keyColor": "38;2;102;11;42",
+    "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}
