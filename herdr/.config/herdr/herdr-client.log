@@ -1,0 +1,3 @@
+2026-07-28T08:18:47.674084Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=30361
+2026-07-28T08:18:47.674128Z  INFO herdr::client: connecting to server path=/home/lme/.config/herdr/herdr-client.sock
+2026-07-28T08:18:47.682597Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame

@@ -1,0 +1,30 @@
+2026-07-28T08:18:47.624600Z  INFO herdr::api::server: api server listening path=/home/lme/.config/herdr/herdr.sock
+2026-07-28T08:18:47.625427Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-28T08:18:47.658382Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-28T08:18:47.664501Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-28T08:18:47.665271Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=30382
+2026-07-28T08:18:47.665402Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=1
+2026-07-28T08:18:47.665407Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-28T08:18:47.665418Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-28T08:18:47.665425Z  INFO herdr::server::headless: created startup workspace cwd=/home/lme
+2026-07-28T08:18:47.665484Z  INFO herdr::server::headless: client protocol socket listening path=/home/lme/.config/herdr/herdr-client.sock
+2026-07-28T08:18:47.665501Z  INFO herdr::server::headless: herdr server started api_socket=/home/lme/.config/herdr/herdr.sock client_socket=/home/lme/.config/herdr/herdr-client.sock
+2026-07-28T08:18:47.665697Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=30362
+2026-07-28T08:18:47.683268Z  INFO herdr::server::headless: client connected client_id=2 cols=284 rows=70 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-28T08:18:52.666891Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/lme/.config/herdr/session.json workspaces=1
+2026-07-28T08:18:53.365544Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 130, signal: None }"
+2026-07-28T08:18:53.369280Z  INFO herdr::pane: pane session terminated pane=1 pid=30382 signal=Hangup
+2026-07-28T08:18:53.369343Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=69 cols=258 scrollback_limit_bytes=10000000
+2026-07-28T08:18:53.370560Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=30472
+2026-07-28T08:18:53.370694Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=2
+2026-07-28T08:18:53.370697Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-28T08:18:53.370737Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-28T08:18:54.789771Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-07-28T08:18:54.793544Z  INFO herdr::pane: pane session terminated pane=2 pid=30472 signal=Hangup
+2026-07-28T08:18:54.793770Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=69 cols=258 scrollback_limit_bytes=10000000
+2026-07-28T08:18:54.795102Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=30509
+2026-07-28T08:18:54.795232Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=3
+2026-07-28T08:18:54.795237Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-28T08:18:54.795281Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-28T08:18:59.796863Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/lme/.config/herdr/session.json workspaces=1
+2026-07-28T08:19:03.770511Z  INFO herdr::server::headless: client disconnected client_id=2
