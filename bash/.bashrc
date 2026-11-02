@@ -1,4 +1,4 @@
-fastfetch
+[[ $- == *i* ]] && fastfetch
 # Aliases
 alias cat='bat'
 alias ll='ls -la'
